@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  /* font-family: 'Pinyon Script', cursive;
+font-family: 'Poppins', sans-serif; */
+
+font-family: 'Poppins', sans-serif;
+scroll-behavior: smooth;
+box-sizing: border-box;
+}
+.title{
+  color: #ffa33e;
+  font-family: 'Pinyon Script', cursive;
+  @apply text-7xl relative
+}
+.sub-title{
+  @apply  uppercase font-semibold text-6xl  tracking-wide
+}
+
+.judul{
+  @apply text-2xl
+  
+}
