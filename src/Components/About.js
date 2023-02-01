@@ -4,7 +4,11 @@ import "./style.css";
 const About = () => {
   return (
     <section id="about" className="flex p-32 max-lg:flex-col max-lg:p-4">
-      <div className="w-1/2 flex flex-col items-center max-lg:w-full ">
+      <div
+        className="w-1/2 flex flex-col items-center max-lg:w-full "
+        data-aos="fade-up-right"
+        data-aos-delay="500"
+      >
         <h2 className="title -mb-8 max-lg:text-6xl max-lg:text-center">
           Discover
         </h2>
@@ -15,10 +19,10 @@ const About = () => {
         <span className="text-lg mt-12 mb-4  text-gray-400">* * *</span>
 
         <p className="text-center text-gray-400 text-sm px-16 leading-relaxed">
-          Voluptatibus quaerat laboriosam fugit non Ut consequatur animi est
-          molestiae enim a voluptate totam natus modi debitis dicta impedit
-          voluptatum quod sapiente illo saepe explicabo quisquam perferendis
-          labore et illum suscipit
+          Selamat datang di website Makan KuY restoran yang menyajikan berbagai
+          makanan khas indonesia dari segala penjuru. tidak lupa juga tempat
+          yang nyaman dan pelayanan yang ramah, sehingga pelanggan makan dengan
+          santai di Makan KuY
         </p>
 
         <div className="btn-about py-8">
@@ -30,7 +34,11 @@ const About = () => {
           </a>
         </div>
       </div>
-      <div className="w-1/2 flex justify-center max-lg:w-full">
+      <div
+        className="w-1/2 flex justify-center max-lg:w-full"
+        data-aos="fade-up-left"
+        data-aos-delay="500"
+      >
         <img
           src="https://demos.onepagelove.com/html/resto/img/img_1.jpg"
           alt="gambar orang"

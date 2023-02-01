@@ -37,8 +37,20 @@ const Menu = () => {
   return (
     <section id="Menu ">
       <div className="bg-menu h-full flex flex-col items-center p-32 max-lg:px-4">
-        <h2 className="title -mb-8 max-lg:text-6xl">Discover</h2>
-        <h4 className="sub-title text-white z-10 max-lg:text-4xl">Our Menu</h4>
+        <h2
+          className="title -mb-8 max-lg:text-6xl"
+          data-aos="fade-up"
+          data-aos-delay="200"
+        >
+          Discover
+        </h2>
+        <h4
+          className="sub-title text-white z-10 max-lg:text-4xl"
+          data-aos="fade-up"
+          data-aos-delay="150"
+        >
+          Our Menu
+        </h4>
 
         <div className="m-10 p-5 bg-opacity-20 bg-white w-full h-full rounded-md flex flex-wrap justify-center gap-6">
           {meal.map((m) => (

@@ -17,7 +17,7 @@ const Header = () => {
     >
       <div className="logo">
         <h2 className="uppercase border-2 border-white py-1.5 px-5 text-2xl font-semibold text-white cursor-pointer">
-          Resto
+          Makan Kuy
         </h2>
       </div>
 
